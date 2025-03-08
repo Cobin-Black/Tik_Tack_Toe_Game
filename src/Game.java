@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class Game {
     public static void main(String[] args) throws Exception {
