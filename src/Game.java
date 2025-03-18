@@ -1,10 +1,23 @@
 import java.util.Scanner;
-//import java.util.Arrays;
+import java.util.Random;
 
 public class Game {
     public static void main(String[] args) throws Exception {
         Scanner scnr = new Scanner(System.in);
+        Random rand = new Random();
+        
         char[] board_spots = {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
+
+        int winner = 0;
+
+        int coin_flip = rand.nextInt(2);
+        System.out.println("Heads is Player 1 and Tails is Player 2");
+        System.out.println("\nCoin flip result: " + (coin_flip == 0 ? "Heads (Player 1)" : "Tails (Player 2)"));
+
+        while(winner == 0)
+        {
+
+        }
 
         System.out.print(board_spots[0] + " | " + board_spots[1] + " | " + board_spots[2] + "\n" +
                          "--|---|--\n" +
