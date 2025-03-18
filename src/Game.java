@@ -16,18 +16,16 @@ public class Game {
 
         int current_player = coin_flip;
 
-        System.out.print(current_player);
-
-        // while(winner == 0)
-        // {
-        //     System.out.println(board_spots[0] + " | " + board_spots[1] + " | " + board_spots[2] + "\n" +
-        //                  "--|---|--\n" +
-        //                  board_spots[3] + " | " + board_spots[4] + " | " + board_spots[5] + "\n" +
-        //                  "--|---|--\n" +
-        //                  board_spots[6] + " | " + board_spots[7] + " | " + board_spots[8]);
+        while(winner == 0)
+        {
+            System.out.println(board_spots[0] + " | " + board_spots[1] + " | " + board_spots[2] + "\n" +
+                         "--|---|--\n" +
+                         board_spots[3] + " | " + board_spots[4] + " | " + board_spots[5] + "\n" +
+                         "--|---|--\n" +
+                         board_spots[6] + " | " + board_spots[7] + " | " + board_spots[8]);
 
             
-        // }
+        }
 
     //     System.out.print(board_spots[0] + " | " + board_spots[1] + " | " + board_spots[2] + "\n" +
     //                      "--|---|--\n" +
